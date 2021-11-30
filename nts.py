@@ -37,7 +37,7 @@ hosts = {
     '(?:Scratcha DVA|Scratcha)': 'ScratchaDVA',
     'Sherelle': 'iamsherelle',
     'SKY H1': 'SKY_H1_',
-    '(?:S K Y A P N E A|Skyapnea': 'SKYAPNEA)',
+    '(?:S K Y A P N E A|)': 'SKYAPNEA)',
     'Tasker': 'NicTasker',
     'Total Stasis': 'Totalstasis',
     'Death Is Not The End': 'deathisnot',
