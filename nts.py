@@ -9,6 +9,7 @@ hosts = {
     'Charlie Bones': 'D0YoU',
     'Dave ID': 'DaveIDmusic',
     'Delivery': 'DeliveryLA',
+    'Death is not the End': 'deathisnot',
     'Emotional Landscapes': 'maya_kal_',
     'Ernesto Chahoud': 'ernestchahoud',
     'Elena Colombi': 'ElenaColombi',
