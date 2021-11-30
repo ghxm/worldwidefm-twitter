@@ -90,11 +90,11 @@ def main():
                 if not args.dry:
                     tw_response = client.create_tweet (text=text)
 
-                print(text.decode('utf-8') + '\n\t' + ("Tweet posted"))
+                print(text + '\n\t' + ("Tweet posted"))
                 e_posted=1
 
             except Exception as e:
-                print(text.decode('utf-8') + '\n\t' + ("Tweet not posted:\n" + str(e)))
+                print(text + '\n\t' + ("Tweet not posted:\n" + str(e)))
                 e_posted = 0
 
             cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
