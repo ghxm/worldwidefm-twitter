@@ -10,7 +10,7 @@ import nts
 def add_host_twitter(show_name):
 
     for name, user in nts.hosts.items():
-        show_name = re.sub(f'({name})', f'\g<1> (@{user})', show_name, flags=re.IGNORECASE)
+        show_name = re.sub(f'([\s^])({name})([\s$])', f'\g<1> (@{user})', show_name, flags=re.IGNORECASE|re.MULTILINE)
 
     return show_name
 
