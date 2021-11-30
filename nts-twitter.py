@@ -21,7 +21,7 @@ def main():
     parser.add_argument("-n", "--numshows", help="Number of shows to check", default=25,
                     type=int)
     parser.add_argument("-t", "--text", help="Tweet text. Use {tw_name} and {url} to include upload name and url",
-                        default = "{tw_name} (broadcasted {date}, {location}) was uploaded to nts.live. Give it a listen for some {genres}. {url}",
+                        default = "{tw_name} ({date}, {location}) was uploaded to nts.live. Give it a listen for some {genres}. {url}",
                     type=str)
     parser.add_argument("-d", "--dry", help="Dry run (don't tweet)", action="store_true", default=False)
     args = parser.parse_args()
@@ -80,7 +80,7 @@ def main():
                 u['genres'] = ['music']
 
             if len(u['date']) == 0:
-                u['date'] = "at some point in the past"
+                u['date'] = "at some point in time"
 
 
             text = args.text.format(name = u['name'], tw_name=u['tw_name'], url = u['url'], date = u['date'], location = u['location'], genres=' & '.join(filter(None, [', '.join(u['genres'][:-1])] + u['genres'][-1:])))
@@ -90,11 +90,11 @@ def main():
                 if not args.dry:
                     tw_response = client.create_tweet (text=text)
 
-                print(text + '\n\t' + ("Tweet posted"))
+                print(text.decode('utf-8') + '\n\t' + ("Tweet posted"))
                 e_posted=1
 
             except Exception as e:
-                print(text + '\n\t' + ("Tweet not posted:\n" + str(e)))
+                print(text.decode('utf-8') + '\n\t' + ("Tweet not posted:\n" + str(e)))
                 e_posted = 0
 
             cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
