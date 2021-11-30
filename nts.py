@@ -35,6 +35,7 @@ hosts = {
     'Lisha G': 'theonlyLishaG',
     'Louise Chen': 'CHCHCHEN_',
     'Psychedelic Ensemble': 'ensemblepsych',
+    'Radio Alhara': 'Radio_alHara',
     '(?:Scratcha DVA|Scratcha)': 'ScratchaDVA',
     'Sherelle': 'iamsherelle',
     'SKY H1': 'SKY_H1_',
