@@ -25,7 +25,7 @@ hosts = {
     'Nedarb': 'nedarbnagrom',
     'Neoperreo': 'NEOPERREO_',
     'Optimo': 'JDTwitch',
-    'Object Blue'
+    'Object Blue': 'objectblue_',
     '(?:Raji Rags|Raj Chaudhuri|Raj)': 'RajiRags',
     'Ruf Dug': 'RufDug',
     'Kevin Kusatsu': 'kevinkusatsu',
