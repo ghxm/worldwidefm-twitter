@@ -46,6 +46,7 @@ hosts = {
     'SKY H1': 'SKY_H1_',
     '(?:S K Y A P N E A|SKYAPNEA)': 'SKYAPNEA)',
     'SNO': 'DipItLowSNO',
+    'Spirit Blue': '_sleepier_ & @TxImpey',
     'Tasker': 'NicTasker',
     'Total Stasis': 'Totalstasis',
     'Death Is Not The End': 'deathisnot',
