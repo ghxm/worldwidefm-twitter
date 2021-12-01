@@ -20,7 +20,7 @@ hosts = {
     'Huerco S[\.]*': 'huerco_s',
     'Moxie': 'DJMoxie',
     'Macca': 'maccalaaa',
-    'Maria Somerville': 'ariasomerville',
+    'Maria Somerville': 'mariasomerville',
     'Mark Leckey': 'MarkLeckey',
     'Nailah Hunter': 'nailah_hunter',
     'Naina': 'Naina_LDN',
