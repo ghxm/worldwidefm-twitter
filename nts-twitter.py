@@ -97,7 +97,8 @@ def main():
                 print(text + '\n\t' + ("Tweet not posted:\n" + str(e)))
                 e_posted = 0
 
-            cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
+            if not args.dry:
+                cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
                         (u['name'], u['slug'], u['location'], u['date'], str(u['genres']), e_posted))
 
             n_shows = n_shows + 1

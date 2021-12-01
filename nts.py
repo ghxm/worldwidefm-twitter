@@ -43,6 +43,7 @@ hosts = {
     'Radio Alhara': 'Radio_alHara',
     '(?:Scratcha DVA|Scratcha)': 'ScratchaDVA',
     'Sherelle': 'iamsherelle',
+    'Shy One': 'ShyOneBeats',
     'SKY H1': 'SKY_H1_',
     '(?:S K Y A P N E A|SKYAPNEA)': 'SKYAPNEA)',
     'SNO': 'DipItLowSNO',
