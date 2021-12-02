@@ -20,6 +20,7 @@ hosts = {
     'Flo': 'flollid',
     'Fractal Meat': 'grahamdunning',
     'From Sun City': 'from_sun_city',
+    '(?:\()*Gost Zvuk(?:\)*)': 'gostzvuk',
     'Hesska': 'HesskaCITS',
     'House Call': 'HouseCallNts',
     'Huerco S[\.]*': 'huerco_s',
