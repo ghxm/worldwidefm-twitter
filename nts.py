@@ -47,6 +47,7 @@ hosts = {
     'Psychedelic Ensemble': 'ensemblepsych',
     'Radio Alhara': 'Radio_alHara',
     'Rhythm Section': 'rhythmsectionhq',
+    'Ross Allen': 'rossallenmusic',
     '(?:Scratcha DVA|Scratcha)': 'ScratchaDVA',
     'Sherelle': 'iamsherelle',
     'Shy One': 'ShyOneBeats',
