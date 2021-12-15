@@ -88,6 +88,7 @@ hosts = {
     'Spirit Blue': '_sleepier_ & @TxImpey as @Spirit___Blue',
     'Tasker': 'NicTasker',
     'The Large': 'itsthelarge',
+    'Tim (?:&|and) Barry': 'timandbarry',
     'Total Stasis': 'Totalstasis',
     'Yeaji': 'kraeji',
     'Visible cloaks': 'visiblecloaks',
