@@ -1,0 +1,12 @@
+# Project exclude paths
+/venv/
+.idea/.gitignore
+.idea/dataSources.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/nts-twitter.iml
+.idea/vcs.xml
+__pycache__/
+twitter_auth.py
