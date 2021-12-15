@@ -29,7 +29,7 @@ hosts = {
     'Emotional Landscapes': 'maya_kal_',
     'Ernesto Chahoud': 'ernestchahoud',
     'Elena Colombi': 'ElenaColombi',
-    'Flo': 'flollid',
+    '(?<!Auntie )(?<!Ambient )Flo': 'flollid',
     'Fractal Meat': 'grahamdunning',
     'From Sun City': 'from_sun_city',
     '(?:\()*Gost Zvuk(?:\)*)': 'gostzvuk',
