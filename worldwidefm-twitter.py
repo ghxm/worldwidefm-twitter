@@ -54,7 +54,7 @@ def main():
 
         feed_dict = feed.json()
 
-        uploads = [{'name': r.get('title'), 'tw_name': add_host_twitter(r.get('title')), 'slug': r.get('uri'), 'url': 'https://www.worldwidefm.net' + r.get('uri'), 'date': r.get('postDate'), 'location': r.get('location', ''), 'genres': [g['title'] for g in r.get('genreTags')]}  for r in feed_dict['data']['entries']]
+        uploads = [{'name': r.get('title'), 'tw_name': add_host_twitter(r.get('title')), 'slug': r.get('uri'), 'url': 'https://www.worldwidefm.net/' + r.get('uri'), 'date': r.get('postDate'), 'location': r.get('location', ''), 'genres': [g['title'] for g in r.get('genreTags')]}  for r in feed_dict['data']['entries']]
 
         print(str(len(uploads)) +  ' found')
 
