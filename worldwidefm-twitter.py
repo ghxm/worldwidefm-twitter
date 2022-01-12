@@ -105,7 +105,7 @@ def main():
                 e_posted = 0
 
             if not args.dry:
-                cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?)',
+                cur.execute('INSERT INTO episodes(name, slug, location, date, genres, posted) values (?, ?, ?, ?, ?, ?) ON CONFLICT(slug) DO UPDATE SET posted=excluded.posted, genres=excluded.genres',
                         (u['name'], u['slug'], u['location'], u['date'], str(u['genres']), e_posted))
 
             n_shows = n_shows + 1
